@@ -1,0 +1,519 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEDEEPYA POLISETTI</title>
+    <meta name="description" content="Portfolio of Polisetti Dedeepya - Web Developer & Security Analyst">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">DEDEEPYA</span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#internship" class="nav-link">Internship</a>
+                <a href="#resume" class="nav-link">Resume</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="nav-controls">
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Floating Particles Background -->
+    <div class="particles-container" id="particles"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h3 class="hero-name">POLISETTI DEDEEPYA</h3>
+                <div class="role-container">
+                    <span class="role-prefix">I am a </span>
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    A passionate and results-driven computer science undergraduate, committed to developing 
+                    secure, efficient, and user-centric web solutions.
+                </p>
+                <div class="hero-buttons">
+                    <button class="cta-button primary" onclick="scrollToSection('projects')">
+                        <i class="fas fa-code"></i>
+                        View My Work
+                    </button>
+                    <button class="cta-button secondary" onclick="scrollToSection('contact')">
+                        <i class="fas fa-envelope"></i>
+                        Get In Touch
+                    </button>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://github.com/Dedeepya-Polisetti-7" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="www.linkedin.com/in/polisettidedeepya" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:polisettidedeepya@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator" >
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-subtitle">Get to know me better</div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        As a final-year Computer Science undergraduate, I bring fresh perspectives and up-to-date 
+                        knowledge to the fields of web development and cybersecurity. My journey began with a deep 
+                        curiosity about how technology can solve real-world challenges, which has driven me to 
+                        specialize in creating secure, efficient, and user-friendly web applications.
+                    </p>
+                    <p class="about-paragraph">
+                        I am passionate about staying at the forefront of emerging technologies and security best 
+                        practices. Whether I'm developing responsive web interfaces or identifying potential security 
+                        vulnerabilities, I approach every project with meticulous attention to detail, a problem-solving 
+                        mindset, and a strong commitment to quality and innovation.
+                    </p>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>Web Development
+                            </span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Security Analysis</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-illustration">
+                    <div class="illustration-card">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-subtitle">Some of my recent work</div>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="project-title">Securing Webpage using Steganography</h3>
+                    </div>
+                    <p class="project-description">
+                        A project to enhance webpage security using IDS, IPS techniques and 
+                        steganography to detect threats, prevent intrusions, and protect sensitive data.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/Dedeepya-Polisetti-7/Steganography-" target="_blank" class="project-btn">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-book-open-reader"></i>
+                        </div>
+                        <h3 class="project-title">Library Management System</h3>
+                    </div>
+                    <p class="project-description">
+                        A system designed to efficiently manage book inventory, user records, and lending
+                        operations in a library through a centralized digital platform.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">SQLite</span>
+                        <span class="tech-tag">HTML</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/Dedeepya-Polisetti-7/Library-Management" target="_blank" class="project-btn">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Skills Section-->
+    <section id="skill" class="section">
+      <div class="container">
+        <div class="section-header">
+                <h2 class="section-title">Skills</h2>
+                <div class="section-subtitle">Some of my skills</div>
+            </div>
+            <div class="skills-grid">
+                  <div class="skill-card">
+                      <div class="skill-header">
+                          <div class="skill-icon">
+                              <i class="fas fa-file-code"></i>
+                          </div>
+                          <h3 class="skill-title">Programming Languages</h3>
+                      </div>
+                      <div class="skill-tech">
+                          <span class="skill-tag">Python</span>
+                          <span class="skill-tag">Java</span>
+                          <span class="skill-tag">DSA</span>
+                          <span class="skill-tag">Shell/Bash</span>
+                      </div>
+                  </div>
+                  <div class="skill-card">
+                      <div class="skill-header">
+                          <div class="skill-icon">
+                              <i class="fas fa-laptop"></i>
+                          </div>
+                          <h3 class="skill-title">Web Development</h3>
+                      </div>
+                      <div class="skill-tech">
+                          <span class="skill-tag">HTML</span>
+                          <span class="skill-tag">CSS</span>
+                          <span class="skill-tag">JavaScript</span>
+                          <span class="skill-tag">Django</span>
+                      </div>
+                  </div>
+                  <div class="skill-card">
+                      <div class="skill-header">
+                          <div class="skill-icon">
+                              <i class="fas fa-bug"></i>
+                          </div>
+                          <h3 class="skill-title">Tech Tools</h3>
+                      </div>
+                      <div class="skill-tech">
+                          <span class="skill-tag">Kali Linux</span>
+                          <span class="skill-tag">WireShark</span>
+                          <span class="skill-tag">ServiceNow</span>
+                          <span class="skill-tag">Git</span>
+                          <span class="skill-tag">Pycharm</span>
+                          <span class="skill-tag">VsCode</span>
+                      </div>
+                  </div>
+            </div>
+      </div>
+    </section>
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <div class="section-subtitle">My academic journey</div>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item slide-from-left">
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2022 - 2026</div>
+                        <h3 class="timeline-title">B.Tech in Computer Science</h3>
+                        <p class="timeline-subtitle">GMR Institute of Technology</p>
+                        <p class="timeline-description">
+                            With a strong focus on Web Technologies and Cybersecurity, I have developed a 
+                            solid technical skill set complemented by active involvement in coding challenges, 
+                            technical events, and hands-on learning.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item slide-from-right">
+                    <div class="timeline-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2020 - 2022</div>
+                        <h3 class="timeline-title">Higher Secondary Education</h3>
+                        <p class="timeline-subtitle">Sri Chaitanya Junior College</p>
+                        <p class="timeline-description">
+                            Completed higher secondary education with focus on Science and Mathematics. 
+                            Achieved excellent grades while developing strong analytical and problem-solving skills.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internship Section -->
+    <section id="internship" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Internship</h2>
+                <div class="section-subtitle">Professional experience</div>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item slide-from-left">
+                    <div class="timeline-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2025</div>
+                        <h3 class="timeline-title">Cybersecurity Analyst</h3>
+                        <p class="timeline-subtitle">TATA <br>virtual Internship</p>
+                        <p class="timeline-description">
+                            Gained hands-on experience in Identity & Access Management (IAM) by conducting risk assessments, 
+                            designing secure access solutions, and developing implementation strategies aligned with enterprise 
+                            security goals.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item slide-from-right">
+                    <div class="timeline-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2024</div>
+                        <h3 class="timeline-title">Web Development(Django)</h3>
+                        <p class="timeline-subtitle">TopNotch software Solutions</p>
+                        <p class="timeline-description">
+                            Worked on developing responsive web applications using Django Framework. 
+                            Collaborated with senior developers to implement user-friendly interfaces 
+                            and optimize website performance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications</h2>
+                <div class="section-subtitle">Professional achievements</div>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item slide-from-left">
+                    <div class="timeline-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2025 June</div>
+                        <h3 class="timeline-title">ServiceNow Application Developer</h3>
+                        <p class="timeline-subtitle">ServiceNow</p>
+                        <p class="timeline-description">
+                            Designed and developed custom applications on the ServiceNow platform using 
+                            Flow Designer, Script Includes, and UI policies to meet business requirements.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item slide-from-right">
+                    <div class="timeline-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div><div class="timeline-year">2025 March</div>
+                        <h3 class="timeline-title">ServiceNow System Adminstrator</h3>
+                        <p class="timeline-subtitle">ServiceNow</p>
+                        <p class="timeline-description">
+                            Managed and maintained ServiceNow platform instances, ensuring optimal performance, 
+                            user access control, and platform configurations.
+                        </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Resume</h2>
+                <div class="section-subtitle">Download or view my resume</div>
+            </div>
+            
+            <div class="resume-content">
+                <div class="resume-preview">
+                    <div class="resume-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>Professional Resume</h3>
+                    <p>Get a detailed overview of my skills, experience, and achievements.</p>
+                </div>
+                
+                <div class="resume-actions">
+                    <a href="https://drive.google.com/file/d/1tHAT1A-o1SXoVrqYE7jVFKubN9uDQQlK/view?usp=drivesdk" target="_blank" class="resume-btn primary">
+                        <i class="fas fa-eye"></i>
+                        View Resume
+                    </a>
+                    <a href="https://drive.google.com/uc?export=download&id=1tHAT1A-o1SXoVrqYE7jVFKubN9uDQQlK" download class="resume-btn secondary">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-subtitle">Let's work together</div>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always excited to discuss new opportunities, interesting projects, 
+                        or just have a conversation about technology and security.
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>polisededeepya313@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/polisettidedeepya</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p>github.com/Dedeepya-Polisetti-7</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-location-dot"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Rajam, Vizianagaram, Andhra Pradesh. 532127 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+              <div class="footer-text">
+                <h3>Polisetti Dedeepya's Portfolio</h3>
+                <p>Thank you for visiting my portfolio. 
+                  I appreciate your time and interest in my work!</p>
+              </div>
+                
+                <div class="footer-links">
+                    <a href="https://github.com/Dedeepya-Polisetti-7" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="www.linkedin.com/in/polisettidedeepya" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:polisettidedeepya313@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="footer-bottom">
+                  <p class="copyright">
+                     ©️ 2025 Polisetti Dedeepya. All rights reserved.
+                </p>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</body>
+</html>
