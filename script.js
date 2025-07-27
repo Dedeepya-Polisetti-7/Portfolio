@@ -57,17 +57,6 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(typeText, 1000);
 });
 
-// Smooth Scrolling
-function scrollToSection(sectionId) {
-    const section = document.getElementById(sectionId);
-    if (section) {
-        section.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-        });
-    }
-}
-
 // Navigation Active State
 function updateActiveNavLink() {
     const sections = document.querySelectorAll('section[id]');

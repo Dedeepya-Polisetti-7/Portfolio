@@ -24,6 +24,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 body {
@@ -178,10 +179,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  scroll-margin-top: 80px;
   text-align: center;
   position: relative;
   background: var(--gradient-primary);
-  background-attachment: fixed;
   padding-top: 60px; /* Added padding to lower the content */
 }
 
